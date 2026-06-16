@@ -1,14 +1,14 @@
-[README1.md](https://github.com/user-attachments/files/29014010/README1.md)
+[README (3).md](https://github.com/user-attachments/files/29014496/README.3.md)
 # IMDb Movie Rating Predictor 🎬
 
-## 1. תיאור קצר של הפרויקט
-פרויקט זה מציע מערכת מבוססת למידת מכונה (Machine Learning) לחיזוי דירוג קבצי סרטים באתר IMDb. המערכת משתמשת במודל **Random Forest Regressor** אשר אומן על נתוני סרטים היסטוריים, תוך שקלול מאפיינים מתקדמים כגון מוניטין של שחקנים מובילים ובמאים לאורך 10 השנים האחרונות, משך זמן הסרט (מיושר ל-3 קטגוריות אורך), ז'אנרים מובילים ושפת הסרט. הפרויקט כולל ממשק משתמש אינטרנטי (Web App) ידידותי המאפשר להזין נתוני סרט ולקבל חיזוי דירוג מיידי מתוך 10.
+## 1. Project Description
+This project delivers a machine learning solution designed to predict IMDb movie ratings on a scale from 1 to 10. Built around a **Random Forest Regressor**, the model processes key cinematic features, including a custom actor reputation metric calculated over a 10-year historical window, director reputation metrics, movie runtime classification (mapped into discrete size bins), principal genres, and the original language of the film. The system includes a backend REST API developed with Flask and a responsive web interface allowing users to input raw movie metadata and receive instantaneous rating predictions.
 
 ---
 
-## 2. הוראות התקנה: יצירת סביבה וירטואלית והתקנת requirements.txt
-כדי להריץ את הפרויקט בצורה מקומית על המחשב, יש לבצע את השלבים הבאים דרך הטרמינל (Git Bash / Command Prompt):
+## 2. Installation Instructions
+To set up and run this project locally, ensure you have Python installed and execute the following commands in your terminal (Git Bash or Command Prompt):
 
-1. **שיבוט המאגר (Clone) או כניסה לתיקיית הפרויקט:**
-```bash
-   cd /path/to/YOUR-PROJECT-FOLDER
+1. **Navigate to the project directory:**
+   ```bash
+   cd /path/to/your/IMDB_Predicter
